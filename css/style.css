@@ -483,10 +483,10 @@ h2 {
 .feedback{
     height: auto;
 }
-.feedback .profile-pic{
+/* .feedback .profile-pic{
     height: 50px;
     width: 50px
-}}
+}} */
 
 @media screen and (max-width: 600px) {
     
