@@ -8,5 +8,6 @@ click.addEventListener('click',function(e){
     banner.style.backgroundPosition="center";
     banner.style.backgroundRepeat="no-repeat";
     // clickContent.style.display="none";
+
    
 })

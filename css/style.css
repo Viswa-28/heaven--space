@@ -492,6 +492,13 @@ h2 {
     height: 300px;
     width: 250px;
 }
+.banner{
+    background-position: center;
+    background-size:contain;
+    height: 200px;
+    width: 50%!important;
+    /* width: 100%; */
+}
 .navbar{
     width: 80%;
 }
@@ -510,6 +517,14 @@ h2 {
 .fourth{
     height: auto;
 }
-
+.fourth .img-ele {
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 0px;
+}
 
 
