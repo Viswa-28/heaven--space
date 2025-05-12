@@ -38,7 +38,7 @@ h2 {
     background-color: #997858;
     color: white;
     border-radius: 8px;
-    padding-inline: 15px;
+   padding-inline: 15px;
     padding-block: 5px;
     border: none;
     cursor: pointer;
@@ -85,8 +85,9 @@ h2 {
 }
 
 .collapse ul li a.active {
-    color: #997858;
-    background-color: white;
+    color: #997858!important;
+    /* background-color: white; */
+    border-bottom: 4px solid #997858;
     border-radius: 8px;
     padding-inline: 15px;
     padding-block: 5px;
@@ -120,7 +121,7 @@ h2 {
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: overlay;
-    background-color: rgba(0, 0, 0, 0.563);
+    background-color: rgba(0, 0, 0, 0.822);
     display: flex;
     /* align-items: center; */
     /* justify-content: space-between; */
@@ -134,14 +135,14 @@ h2 {
 
 .c-content {
     gap: 10px;
-    background-color: rgba(128, 128, 128, 0.474);
+    background-color: rgba(128, 128, 128, 0.253);
     padding: 10px;
     border-radius: 8px;
     /* background-color: red; */
-    width: 50%;
+    width: 20%;
 
     display: flex;
-    place-content: center;
+    /* place-content: center; */
     align-items: center;
     justify-content: space-between;
 }
@@ -175,7 +176,7 @@ h2 {
 /* second */
 
 .second {
-    height: 950px;
+    height: 1050px;
     width: 80%;
     margin-top: 50px;
     display: flex;
@@ -221,7 +222,7 @@ h2 {
 .third {
     height: 700px;
     width: 80%;
-    margin-top: 50px;
+    margin-top: 100px;
     display: flex;
     align-items: start;
     /* justify-content: space-between; */
@@ -236,7 +237,7 @@ h2 {
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row !important;
     gap: 20px;
     /* background-color: red; */
@@ -378,7 +379,7 @@ h2 {
     height: 150px;
     width:  150px;
     padding-right: 30px;
-    border-radius: 15px;
+    /* border-radius: ; */
 }
 
 .feedback .col .p-details img {
